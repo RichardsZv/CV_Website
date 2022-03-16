@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>Ricards Zvagulis CV</title>
+    </head>
+    <body>
+
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav_logo">Ričards</a>
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list">
+                        <li class="nav_item">
+                            <a href="#home" class="nav_link active-link">
+                                <i class='bx bx-home-alt-2 nav_icon'></i>Home
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#profile" class="nav_link">
+                                <i class='bx bx-user nav_icon' ></i>Profile
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#education" class="nav_link">
+                                <i class='bx bx-book nav_icon' ></i>Education
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#skills" class="nav_link">
+                                <i class='bx bx-receipt nav_icon' ></i>Skills
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#experience" class="nav_link">
+                                <i class='bx bx-briefcase nav_icon' ></i>Experience
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#certificates" class="nav_link">
+                                <i class='bx bx-certification nav_icon' ></i>Certificates
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt' ></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume_left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home_container section bd-grid">
+                            <div class="home_data bd-grid">
+                                <img src="img/me.jpg" alt="" class="home_img">
+                                <h1 class="home_title">RICARDS ZVAGULIS</h1>
+                                <h3 class="home_profession">Computer science student</h3>
+                                <!-- Button to generate and download the pdf. Available for desktop. -->
+                                <div>
+                                    <a download="" href="pdf/RicardsZvagulisCV_eng.pdf" class="home_button-movil">Download CV</a>
+                                </div>
+                            </div>
+                            <div class="home_address bd-grid">
+                                <span class="home_information">
+                                    <i class='bx bx-map home_icon'></i> Graudu iela 13B, Riga
+                                </span>
+                                <span class="home_information">
+                                    <i class='bx bx-envelope home_icon' ></i> richards.zvagulis@gmail.com
+                                </span>
+                                <span class="home_information">
+                                    <i class='bx bx-phone home_icon' ></i> +371 27748080
+                                </span>
+                            </div>
+                        </div>
+                             
+                    
+                        <!-- CHANGE THEME -->
+                        <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+                        
+                        <!-- GENERATE DESKTOP PDF -->
+                        <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+
+                    </section> 
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section-title">SOCIAL</h2>
+                        <div class="social_container bd-grid">
+                            <a href="https://www.linkedin.com/in/ri%C4%8Dards-zvagulis-740032191/" class="social_link social_icon">
+                                <i class='bx bxl-linkedin-square' ></i> LinkedIn
+                            </a>
+                        </div>
+                    </section>
+
+                    <!--========== PROFILE ==========-->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">Profile</h2>
+                        <p class="profile_description">Lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor lorem</p>
+                    </section>
+                    
+                    
+
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Digital Skills</h2>
+                        <div class="skills_content bd-grid">
+                            
+                            <ul class="skills_data">
+                                <h3>Programming and Data bases</h3><br>
+                                
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span> C# and .Net basics
+                                </li>
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span> C++ basics
+                                </li>
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span> Flutter and Dart basics
+                                </li>
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span> Git and GitHub
+                                </li>
+                                
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span> OOP paradigm
+                                </li>
+                            </ul>
+                            
+                            <ul class="skills_data">
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span> Data structures and algorithms
+                                </li>
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span> HTML/CSS/JavaScript
+                                </li>
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span> MVC design pattern
+                                </li>
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span> basics of PHP/Laravel framework 
+                                </li>
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span> SQL
+                                </li>
+                            </ul>
+                            <br>
+                            <ul class="skills_data">
+                                <h3>Other</h3><br>
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span> Adobe(Photoshop, Lightroom)
+                                </li>
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span> Notion
+                                </li>
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span> MS Office
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </section>
+
+                </div>
+
+                <div class="resume_right">
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">Education</h2>
+                        <div class="education_container bd-grid">
+                            <!-- LU -->
+                            <div class="education_content">
+                                <div class="education_time">
+                                    <span class="education_rounder"></span>
+                                    <span class="education_line"></span>
+                                </div>
+                                <div class="education_data bd-grid">
+                                    <h3 class="education_title">Bachelor in Computer Science</h3>
+                                    <span class="education_studies">University of Latvia</span>
+                                    <span class="education_year">01/09/2020 - CURRENT</span>
+                                </div>
+                            </div>
+                            <!-- AVG -->
+                            <div class="education_content">
+                                <div class="education_time">
+                                    <span class="education_rounder"></span>
+                                    <span class="education_line"></span>
+                                </div>
+                                <div class="education_data bd-grid">
+                                    <h3 class="education_title">Secondary education</h3>
+                                    <span class="education_studies">Agenskalns State Gymnasium</span>
+                                    <span class="education_year">01/09/2016 - 28/06/2019</span>
+                                </div>
+                            </div>
+                            <!-- RCS -->
+                        </div>
+                    </section>
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Work experience</h2>
+
+                        <div class="experience_container bd_grid">
+                            <div class="experience_content">
+                                <div class="experience_time">
+                                    <span class="experience_rounder"></span>
+                                    <span class="experience_line"></span>
+                                </div>
+
+                                <div class="experience_data bd-grid">
+                                    <h3 class="experience_title">Computer Designer</h3>
+                                    <span class="experience_company">IK "MARTA TABAKA"</span>
+                                    <span class="experience_year">05/2020 - CURRENT</span>
+                                    <p class="experience_description">Main tasks are graphic design solutions and wordpress website development and maintnance.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== CERTIFICATES ==========-->
+                    <section class="certificate section" id="certificates">
+                        <h2 class="section-title">Certificates</h2>
+                        <div class="certificate_container bd-grid">
+                            <div class="certificate_content">
+                                <h3 class="certificate_title">CCNA: Introduction to Networks</h3>
+                                <p class="certificate_issuer">Cisco Networking Academy</p>
+                                <span class="issue_date">Issued March 2021</span>
+                            </div>
+                            <div class="certificate_content">
+                                <h3 class="certificate_title">Programming basics</h3>
+                                <p class="certificate_issuer">Riga CODING School</p>
+                                <span class="issue_date">Issued March 2020</span>
+                            </div>
+                            <div class="certificate_content">
+                                <h3 class="certificate_title"> Business knowledge from Student Study company and Business simulation "TITAN"</h3>
+                                <p class="certificate_issuer">Junior Achievement Latvia</p>
+                                <span class="issue_date">Issued May 2019</span>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== REFERENCES ==========-->
+                    <!--
+                    <section class="references section" id="references">
+                        
+                    </section>
+                    -->
+                    <!--========== LANGUAGES ==========-->
+                    <section class="languages section"  id="languages">
+                        <h2 class="section-title">Languages</h2>
+
+                        <div class="languages_container">
+                            <p class="languages_title"><b>Mother Tongue:</b></p>
+                            <ul class="languages_content bd-grid">
+                                <li class="languages_name">
+                                    <span class="languages_circle"></span> Latvian
+                                </li>
+                            </ul>
+                            
+                            <p class="languages_title"><b>Other:</b></p>
+                            <ul class="languages_content">
+                                <li class="languages_name">
+                                    <span class="languages_circle"></span> English
+                                </li>
+                                <li class="languages_level">
+                                    <p>Listening: C1 | Reading: C1 | Speaking: B2 | Writing: B2</p>
+                                </li>
+                                
+                                <li class="languages_name">
+                                    <span class="languages_circle"></span> Russian
+                                </li>
+                                <li class="languages_level">
+                                    <p>Listening: A1 | Reading: A1 | Speaking: A1 | Writing: A1
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section" id="interests">
+                        <h2 class="section-title">Interests and Hobbies</h2>
+
+                        <div class="interests_container bd-grid">
+                            <div class="interests_content">
+                                <i class='bx bx-run interests_icon' ></i>
+                                <span class="interests_name">Running</span>
+                            </div>
+                            <div class="interests_content">
+                                <i class='bx bx-camera interests_icon'></i>
+                                <span class="interests_name">Photography</span>
+                            </div>
+                            <div class="interests_content">
+                                <i class='bx bxs-map-alt interests_icon' ></i>
+                                <span class="interests_name">Travel</span>
+                            </div>
+                            <div class="interests_content">
+                                <i class='bx bx-basketball interests_icon' ></i>
+                                <span class="interests_name">Basketball</span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top" >
+            <i class='bx bx-up-arrow-circle scrolltop_icon' ></i>
+        </a>
+
+        <!--========== HTML2PDF ==========-->
+        <script src="js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="js/main.js"></script>
+    </body>
+</html>
