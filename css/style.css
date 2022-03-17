@@ -138,7 +138,8 @@
   .scale-cv .education_container,
   .scale-cv .experience_container,
   .scale-cv .cetificate_container,
-  .scale-cv .interests_container{
+  .scale-cv .interests_container,
+  .scale-cv .skills_container{
       gap: 1rem; 
   }
   .scale-cv .education_time,
@@ -166,8 +167,11 @@
   }
   .scale-cv .interests_container{
       column-gap:2; 
+      margin-bottom: var(--mb-3);
   }
-
+  .scale-cv .skills_container{
+      margin-bottom: var(--mb-1);
+  }
 
   body{
       margin: 0 0 var(--header-height) 0;
@@ -399,7 +403,8 @@
       transform: translate(7px, 0); 
   }
   .education_data,
-  .experience_data{
+  .experience_data,
+  .certificate_data{
       gap: .5rem;
   }
   .education_title,
@@ -543,6 +548,7 @@
       .interests_container{
           grid-template-columns: repeat(4, max-content);
           column-gap: 3.5rem;
+          
       }
   }
   

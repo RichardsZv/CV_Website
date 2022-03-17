@@ -99,17 +99,16 @@ var resumeButton = document.getElementById('resume-button');
 
 // Html2pdf options
 var opt = {
-    margin:       0,
-    filename:     'resume.pdf',
-    image:        { type: 'jpeg', quality: 0.98 },
+    margin:       1,
+    filename:     'RicardsZvagulis_CV.pdf',
+    image:        { type: 'jpeg', quality: 1 },
     html2canvas:  { scale: 2 },
-    jsPDF:        {  format: 'a4', orientation: 'portrait' }
-  };
+    jsPDF:        { format: 'a4', orientation: 'portrait' }
+};
 
 // Function to call areaCv and Html2Pdf options 
 function generateResume(){
-    html2pdf(areaCv, opt)
-    
+    html2pdf(areaCv, opt);
 }
 
 // When the button is clicked, it executes the three functions
